@@ -823,6 +823,7 @@
                 line-height: 1.6;
             }
         </style>
+        <link rel='stylesheet' id='crellyslider.min-css' href='https://www.abe.iastate.edu/soupir/wp-content/plugins/crelly-slider/css/crellyslider.min.css?ver=1.4.5' media='all'/>
         <link rel='stylesheet' id='sdstate-theme-nimbus_sans-css' href='https://cdn.theme.sdstate.edu/fonts/nimbus-sans.css?ver=3.0.3' media='all'/>
         <link rel='stylesheet' id='sdstate-theme-merriweather-css' href='https://cdn.theme.sdstate.edu/fonts/merriweather.css?ver=3.0.3' media='all'/>
         <link rel='stylesheet' id='sdstate-theme-fontawesome-css' href='https://cdn.theme.sdstate.edu/fontawesome/5.0/css/all.min.css?ver=3.0.3' media='all'/>
@@ -833,13 +834,26 @@
                 "i18n": []
             };
         </script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
         <script id='layerslider-utils-js-extra'>
             var LS_Meta = {
                 "v": "7.6.9",
                 "fixGSAP": "1"
             };
         </script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.6.9' id='layerslider-utils-js'></script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.6.9' id='layerslider-js'></script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.6.9' id='layerslider-transitions-js'></script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+        <script src='https://www.abe.iastate.edu/soupir/wp-content/plugins/crelly-slider/js/jquery.crellyslider.min.js?ver=1.4.5' id='jquery.crellyslider.min-js'></script>
         <meta name="generator" content="Powered by LayerSlider 7.6.9 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress."/>
+        <link rel="https://api.w.org/" href="https://www.abe.iastate.edu/soupir/wp-json/"/>
+        <link rel="alternate" type="application/json" href="https://www.abe.iastate.edu/soupir/wp-json/wp/v2/pages/500"/>
+        <link rel="canonical" href="https://www.abe.iastate.edu/soupir/"/>
+        <link rel='shortlink' href='https://www.abe.iastate.edu/soupir/'/>
+        <link rel="alternate" type="application/json+oembed" href="https://www.abe.iastate.edu/soupir/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.abe.iastate.edu%2Fsoupir%2F"/>
+        <link rel="alternate" type="text/xml+oembed" href="https://www.abe.iastate.edu/soupir/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.abe.iastate.edu%2Fsoupir%2F&#038;format=xml"/>
         <style class="stk-block-styles">
             .stk-e7f1c06 {
                 margin-bottom: 0px !important
@@ -879,9 +893,25 @@
                 <div class="container-fluid">
                     <div style="display: inline-block;">
                         <a href="https://www.sdstate.edu/" > <img src="South_Dakota_State_University_logo.png" width="50px" height="80px"></a> 
-                       <div style="display: inline-block;"> <span> <h2><a href="index.html">HydroSolve Lab</a>  </h2> </span> </div>
+                       <div style="display: inline-block;"> <span> <h2><a href="index.html">HydroSolve Lab</a> </h2> </span> </div>
                     </div>
-                       <div class="navbar-site-navs">
+                    <!-- navbar-site-header -->
+                    <!-- <div class="navbar-header visible-xs visible-sm">
+                        <button id="navbar-menu-button" type="button" class="navbar-toggle navbar-toggle-right collapsed" data-toggle="collapse" data-target="#navbar-menu-collapse, #navbar-site-info-collapse" aria-expanded="false">
+                            <span class="navbar-toggle-icon menu-icon">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="navbar-toggle-label">
+                                Menu <span class="sr-only">Toggle</span>
+                            </span>
+                        </button>
+                    </div>
+                     --><!-- /navbar-site-header -->
+                    <!-- navbar-site-info -->
+                    <!-- <div class="navbar-site-info collapse navbar-collapse" id="navbar-site-info-collapse">
+                     -->    <div class="navbar-site-navs">
                             <!-- navbar-site-links -->
                             <ul id="header-right-menu" class="nav navbar-site-links navbar-nav navbar-right menu navbar-caps" >
                                 <li id="menu-item-703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-500 current_page_item active menu-item-703 nav-item">
@@ -957,8 +987,8 @@
                             <!-- .entry-header -->
                                 <table style="height: 1034px;width: 100%">
                                         <tr style="height: 82px ; animation-direction:alternate-reverse">
-                                            <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
-                                            <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                            <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                            <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
                                             <td style="height: 42px" colspan="4">
                                                     <strong>
                                                         <br>
@@ -968,8 +998,8 @@
                                                     </strong></td>
                                         </tr>
                                             <td style="height: 42px" colspan="4">
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2_1.jpg" alt="publication_outcome_snippet" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2_2.jpg" alt="publication_outcome_snippet" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2_1.jpg" alt="Publication_insights_picture" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2_2.jpg" alt="Publication_insights_picture" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
                                                  <strong>
                                                         <br><br><br><br><br><br><br><br><br><br><br><br><br> 
                                                         <hr> <span class="style13">Hoffman, I.R., Miller, K., Paul, G., Yimam, Y., Mehan, S., Dickey, J., Harter, T., and Kisekka, I. (2022). 
@@ -979,8 +1009,8 @@
                                             </td>
                                         <tr style="height: 102px"> 
                                                 <td style="height: 42px" colspan="4">
-                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3_1.png" alt="publication_outcome_snippet" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
-                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3_2.png" alt="publication_outcome_snippet" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3_1.png" alt="Publication_insights_picture" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3_2.png" alt="Publication_insights_picture" width="500" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
                                                     <strong>
                                                         <br>  <br><br><br><br><br><br><br><br><br><br><br><br> 
                                                          <br> <br> <hr> <span class="style13">Schull, V. Z., Mehan, S., Gitau, M. W., Johnson, D. R., Singh, S., Sesmero, J. P., and Flanagan, D. C. (2021). 
@@ -992,8 +1022,8 @@
                                         </tr>
                                         <tr style="height: 103px"> <div class="entry-content">
                                             <td style="height: 42px" colspan="4">
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub4_1.jpg" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub4_2.jpg" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub4_1.jpg" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub4_2.jpg" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
                                                 <br><br><br><br><br><br><br><br><br><br><br><br>
                                                 <br><br><br><br><br><br><br>
                                                 <strong>
@@ -1007,8 +1037,8 @@
                                         </tr>
                                         <tr style="height: 154px"> <div class="entry-content">
                                             <td style="height: 82px" colspan="4">
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub5_1.jpg" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
-                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub5_2.jpg" alt="publication_outcome_snippet" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub5_1.jpg" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub5_2.jpg" alt="Publication_insights_picture" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
                                                 <br><br><br><br><br><br><br><br><br><br><br><br>
                                                 <br><br>
                                                     <strong>
@@ -1022,7 +1052,131 @@
                                         </tr>
 
                                         
-                                        </tbody>
+                                       <!--  <tr style="height: 76px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div></tr>
+                                        <tr style="height: 183px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div> </tr>
+                                        <tr style="height: 136px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 164px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 107px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 171px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 164px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 164px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                        <tr style="height: 83px">
+                                            <div class="entry-content">
+                                                <td style="height: 82px" colspan="4">
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub2.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>
+                                                    <img decoding="async" loading="lazy" class=" wp-image-39 alignleft" src="pub3.png" alt="abe" width="400" height="400"   sizes="(max-width: 198px) 100vw, 198px"/>    
+                                                    <br><br><br><br><br><br><br><br><br><br><br><br>
+                                                        <strong>
+                                                             <hr> <span class="style13">Sharma, Y., Sidana, B. K., Kumar, S., Kaur, S., Sekhon, M. K., Mahal, A. K., and Mehan, S. (2023). 
+                                                                Pre and Post Water Level Behaviour in Punjab: Impact Analysis with DiD Approach. Sustainability, 15(3), 2426. 
+                                                            <br><a href="https://doi.org/10.3390/su15032426" target="_blank">https://doi.org/10.3390/su15032426</a></span>                                                
+                                                        </strong>
+                                                </td>
+                                        </div>
+                                        </tr>
+                                    --> </tbody>
                                 </table>
                                 <div>
                                     <div class="col-12 col-lg-8"></div>
@@ -1171,8 +1325,250 @@
     </div>
 
                                 </div>
-                               </article>
-                        
+                               <!--  <p>
+                                    <span style="font-size: 14pt">
+                                        <strong>Old Group Photos</strong>
+                                    </span>
+                                </p>
+                                <p>
+                                    <img decoding="async" loading="lazy" class="aligncenter wp-image-316" src="https://www.abe.iastate.edu/soupir/files/2018/08/2018_fall_WQRL2-300x203.jpg" alt="" width="531" height="359" srcset="https://www.abe.iastate.edu/soupir/files/2018/08/2018_fall_WQRL2-300x203.jpg 300w, https://www.abe.iastate.edu/soupir/files/2018/08/2018_fall_WQRL2.jpg 727w" sizes="(max-width: 531px) 100vw, 531px"/>
+                                </p>
+                                <p>
+                                    <img decoding="async" loading="lazy" class="wp-image-254  aligncenter" src="https://www.abe.iastate.edu/soupir/files/2017/08/2017-summer-group.jpg" alt="" width="460" height="318" srcset="https://www.abe.iastate.edu/soupir/files/2017/08/2017-summer-group.jpg 640w, https://www.abe.iastate.edu/soupir/files/2017/08/2017-summer-group-300x207.jpg 300w" sizes="(max-width: 460px) 100vw, 460px"/>
+                                    <img decoding="async" loading="lazy" class="wp-image-319 aligncenter" src="https://www.abe.iastate.edu/soupir/files/2018/08/2015-fall-e1535142923394-300x172.jpg" alt="" width="532" height="305" srcset="https://www.abe.iastate.edu/soupir/files/2018/08/2015-fall-e1535142923394-300x172.jpg 300w, https://www.abe.iastate.edu/soupir/files/2018/08/2015-fall-e1535142923394-768x440.jpg 768w, https://www.abe.iastate.edu/soupir/files/2018/08/2015-fall-e1535142923394-1024x586.jpg 1024w" sizes="(max-width: 532px) 100vw, 532px"/>
+                                    <img decoding="async" loading="lazy" class="wp-image-320 aligncenter" src="https://www.abe.iastate.edu/soupir/files/2018/08/summer-2013-e1535143099849-300x133.jpg" alt="" width="686" height="304" srcset="https://www.abe.iastate.edu/soupir/files/2018/08/summer-2013-e1535143099849-300x133.jpg 300w, https://www.abe.iastate.edu/soupir/files/2018/08/summer-2013-e1535143099849-768x342.jpg 768w, https://www.abe.iastate.edu/soupir/files/2018/08/summer-2013-e1535143099849-1024x455.jpg 1024w" sizes="(max-width: 686px) 100vw, 686px"/>
+                                </p>
+                                <div class="su-spoiler su-spoiler-style-fancy su-spoiler-icon-chevron su-spoiler-closed" data-scroll-offset="0" data-anchor-in-url="no">
+                                    <div class="su-spoiler-title" tabindex="0" role="button">
+                                        <span class="su-spoiler-icon"></span>
+                                        Former Graduate Students and Postdocs
+                                    </div>
+                                    <div class="su-spoiler-content su-u-clearfix su-u-trim"></div>
+                                </div>
+                                <p>
+                                    <strong>
+                                        <span class="style13">Trang Hoang: </span>
+                                    </strong>
+                                    <span class="style13">Trang graduated from Water Resources University in Vietnam in 2006. Following graduation she worked as a researcher for the Vietnam Institute of Meteorology, Hydrology and Environment. Trang received an M.S. degree in Agricultural and Biosystems Engineering and Environmental Science from ISU in December 2010. Her research project investigated phenotypic resistance of enterococcus in drainage from swine amended fields.</span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">Martha Zwonitzer: </span>
+                                    </strong>
+                                    <span class="style17">
+                                        Martha graduated from the University of Arkansas in 1998 with a degree in Crop, Soil, and Environmental Science. Her research project investigated relationships between antibiotic resistance and attachment to quartz in <em>E. coli</em>
+                                        isolates from swine facilities. She completed her degree in 2015 and is currently employed by Monsanto. 
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Rachel McDaniel: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style16">
+                                        <span class="style13">
+                                            Rachel completed her M.S. degree in the Agricultural and Biosystems Engineering Department at ISU in summer 2011. Her research studied the resuspension of <em>E. coli</em>
+                                            from cowpies directly deposited into streams. She is now an Assistant Professor at South Dakota State University.
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Amy Cervantes: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">Amy graduated with a B.S. degree from the Missouri University of Science and Technology in 2010. She completed her M.S. degree in Civil, Construction, and Environmental Engineering at ISU in 2012. She in now an Environmental Engineer at Seneca Companies in Des Moines.</span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Jason Garder: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">Jason graduated with a Civil Engineering degree from South Dakota State University in 2011. His M.S. research involved assessing the tylosin concentrations and antibiotic resistant enterococci in tile flow below fields receiving swine manure applications. He graduated from ISU in fall 2012 and is now an Environmental Engineer at Burns &amp;McDonnell in Kansas City.</span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Rohith Gali, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">Rohith graduated with a B.Tech. degree from Acharya N.G. Ranga Agricultural University in Hyderabad, India and an M.S. degree from the Biological and Agricultural Engineering Department at Kansas State University. He completed a Ph.D. in the ABE department at ISU in 2014 on a project monitoring and modeling water quality in the Hickory Grove Lake Watershed. Rohith is now working at Waterborne Environmental.</span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Pramod Pandey, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style17">
+                                                Pramod received a Master of Technology from the IIT in Agricultural and Food Engineering in 2003 and a MS from WSU in Environmental Engineering in 2007. He completed his Ph.D. at ISU in fall 2012 and worked as a post-doc, modeling the resuspension of <em>E. coli </em>
+                                                from stream sediments. He is currently an Extension Specialist at UC Davis in the School of Veterinary Medicine.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Claire Hruby, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style17">Claire graduated from Wesleyan University in the Department of Earth and Environmental Sciences in 1998 and completed an M.S. in Geology at Iowa State University in 2002. She completed her Ph.D. in Environmental Science in 2015 studying the impacts of poultry manure application on drainage water quality. She currently works for Iowa DNR.</span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Chunyu Liao, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">
+                                                Chunyu received her B.S. degree in Biological Engineering at Hubei University of Technology and M.S. in Environmental Microbiology from Huazhong Agricultural University in China. She is currently a PhD student in Microbiology at ISU working on a project to improve understanding of genetic and environmental factors driving <em>E. coli </em>
+                                                attachment to particles. Chunyu was co-advised with Dr. Jarboe and is currently a post-doc at NC State.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Chenkai (Rex) Wu: </strong>
+                                    <span class="style16">Rex received his BS degree from Chejiang University in Biosystems Engineering. He completed his MS degree in Agricultural and Biosystems Engineering at Iowa State University in 2016. His project involved assessment of water quality from fields amended with poultry manure. He is currently working for the Standards Institute in China.</span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Bailey Sullivan, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">
+                                                <span class="style17">Dr. Sullivan joined our group as a postdoctoral scholar from 2014 - 2015. She received her BS and MS degrees from Kansas State University and her PhD from Texas A &amp;M. She managed our USDA NIFA grant on antibiotics and antibiotic resistance in agricultural systems. Bailey is now a lecturer in the Biological and Agricultural Engineering Department at Kansas State University.</span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Xiao Liang, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">
+                                                Xiao graduated with a Biotechnology degree from Nanjing Agricultural University in 2009 and has worked as an intern for the Chinese Academy of Science. For her Ph.D. project she studied <em>E. coli </em>
+                                                interactions with particles in streams. Xiao is currently working as a Senior Data Scientist at Elevate in Dallas, Texas.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>
+                                        <span class="style13">
+                                            <span class="style36">Charles Ikenberry, Ph.D.: </span>
+                                        </span>
+                                    </strong>
+                                    <span class="style13">
+                                        <span class="style36">
+                                            <span class="style16">Charles received his B.S. from University of Nebraska-Lincoln in Civil Engineering and his M.S. from Kansas State University in Biological and Agricultural Engineering. His Ph.D. research involved improving wetland processes in a watershed scale model and conducting scenarios to prioritize wetland placement to maximize water quality benefits. Charles completed his degree in 2016 and is currently with Fyra Engineering in Des Moines, Iowa.</span>
+                                        </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Miguel Israel Chavez-Santoscoy: </strong>
+                                    <span class="style16">
+                                        Miguel completed his M.S. degree in the Chemical and Biological Engineering at ISU in 2016. His advisor was Dr. Cademartiri and Dr. Soupir was his co-advisor. He project involved detection of <em>E. coli </em>
+                                        in waters used phage. Miguel is currently a Ph.D. student in CBE at Iowa State.
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Ross Tuttle: </strong>
+                                    <span class="style16">Ross graduated from Civil Engineering at Iowa State and is currently pursuing his M.S. degree. He is investigating the fate and transport of antibiotic resistant bacteria to tile waters during rainfall events. Ross is employed as a Civil Engineer by U.S. Army Corps of Engineers in Norfolk, Virginia.  </span>
+                                </p>
+                                <p>
+                                    <strong>Maurice Washington: </strong>
+                                    <span class="style16">
+                                        <span class="style13">Maurice received his B.S. degree from NC A &amp;T and M.S. degree from Penn State in 2012.  He completed his Ph.D. in Agricultural and Biosystems Engineering in July 2017.  His project involved the use of POCIS for detection of emerging contaminants.  Maurice currently works as a Water Resources Control Engineer for the California N. Coast Regional Water Quality and Control Board (Ag and Cannabis Unit).</span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Conrad Brendel: </strong>
+                                    <span class="style16">Conrad graduated from the Civil Engineering Department at Iowa State University in 2015.  He completed a M.S. degree in Agricultural and Biosystems Engineering in May 2017 and his project involved monitoring water quality in the Black Hawk Lake watershed. Conrad is currently pursuing a Ph.D. at Virginia Tech.</span>
+                                </p>
+                                <p>
+                                    <strong>Emily Martin: </strong>
+                                    <span class="style16">
+                                        <span class="style13">Emily received her B.S. degree in Environmental Science at ISU in 2016.  She completed her M.S. degree in Environmental Science in May 2018 on the impacts of residence time and influent nitrate concentration on woodchip bioreactor performance.  Emily currently works for the Iowa Natural Heritage Foundation as a Grant Writer.</span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Katherine van der Woude: </strong>
+                                    <span class="style16">
+                                        <span class="style13">Katherine received her B.S. degree in Agronomy at ISU in 2016 and her M.S. in Sustainable Agriculture from ISU in August 2018.  Her project involved monitoring the impact of conservation practices on nitrate levels in the Black Hawk Lake Watershed. </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Alex Martin: </strong>
+                                    <span class="style16">
+                                        <span class="style13">Alex received his B.S. degree in Agricultural and Biosystems Engineering at ISU in 2016.  He completed a M.S. degree in Agricultural and Biosystems Engineering in August 2018 on prairie pothole water dynamics and water quality.  Alex works for the Iowa Department of Natural Resources.</span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Liz Rieke:</strong>
+                                    Liz received a B.S. in Biological Systems Engineering from Virginia Tech and an M.S. and Ph.D. in 
+                                    <span class="style16">
+                                        <span class="style13">Agricultural and Biosystems Engineering at ISU.  She is currently a Project Scientist at the Soil Health Institute.  </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Hannah Guyer:</strong>
+                                    Hannah received a M.S. in 
+                                    <span class="style16">
+                                        <span class="style13">Agricultural and Biosystems Engineering at ISU in 2018.  Her work involved the impact of manure application timing on drainage water quality.  She is currently a Water Resources Design Engineer at Bolton &amp;Menk, Inc. in Mankato, MN. </span>
+                                    </span>
+                                </p>
+                                <p>
+                                    <strong>Elliot Rossow:</strong>
+                                    Elliot received a B.S. in Agronomy and Environmental Science from ISU in 2016 and M.S. in Environmental Science in 2018.  He is currently a Senior Research Associate at Kula Bio in Somerville, MS.
+                                </p>
+                            </div> -->
+                            <!-- .entry-content -->
+                         </article>
+                        <!-- #post-31 -->
+        <!-- <div class="col-md-3">
+            <aside id="secondary" >
+                <section id="block-5" class="widget widget_block">
+                    <figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+                        <div class="wp-block-embed__wrapper">
+                            <a class="twitter-timeline" data-width="1170" data-height="1300" data-dnt="true" href="https://twitter.com/sushantmehan?lang=en">Tweets by Sushant Mehan</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                    </figure>
+                </section>
+            </aside>
+ -->            <!-- #secondary -->
         </div>
     </div>
 </div>
