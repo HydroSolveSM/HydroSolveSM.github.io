@@ -98,68 +98,68 @@ a.link-hover-sdstate-yellow:hover {
 	background-color: #FFD100 !important;
 }
 
-.bg-sdstate-gold-75 {
-	background-color: rgba(241, 190, 72, 0.75) !important;
+.bg-sdstate-yellow-75 {
+	background-color: rgba(255r 209g 0b, 0.75) !important;
 }
 
-.bg-sdstate-gold-50 {
-	background-color: rgba(241, 190, 72, 0.5) !important;
+.bg-sdstate-yellow-50 {
+	background-color: rgba(255r 209g 0b, 0.5) !important;
 }
 
-.bg-sdstate-gold-25 {
-	background-color: rgba(241, 190, 72, 0.25) !important;
+.bg-sdstate-yellow-25 {
+	background-color: rgba(255r 209g 0b, 0.25) !important;
 }
 
-.fill-sdstate-gold {
+.fill-sdstate-yellow {
 	fill: #f1be48 !important;
 }
 
-.fill-sdstate-gold-75 {
-	fill: rgba(241, 190, 72, 0.75) !important;
+.fill-sdstate-yellow-75 {
+	fill: rgba(255r 209g 0b, 0.75) !important;
 }
 
-.fill-sdstate-gold-50 {
-	fill: rgba(241, 190, 72, 0.5) !important;
+.fill-sdstate-yellow-50 {
+	fill: rgba(255r 209g 0b, 0.5) !important;
 }
 
-.fill-sdstate-gold-25 {
-	fill: rgba(241, 190, 72, 0.25) !important;
+.fill-sdstate-yellow-25 {
+	fill: rgba(255r 209g 0b, 0.25) !important;
 }
 
-.border-sdstate-gold {
-	border-color: #f1be48 !important;
+.border-sdstate-yellow {
+	border-color: ##FFD100 !important;
 }
 
-.border-sdstate-gold-75 {
-	border-color: rgba(241, 190, 72, 0.75) !important;
+.border-sdstate-yellow-75 {
+	border-color: rgba(255r 209g 0b, 0.75) !important;
 }
 
-.border-sdstate-gold-50 {
-	border-color: rgba(241, 190, 72, 0.5) !important;
+.border-sdstate-yellow-50 {
+	border-color: rgba(255r 209g 0b, 0.5) !important;
 }
 
-.border-sdstate-gold-25 {
-	border-color: rgba(241, 190, 72, 0.25) !important;
+.border-sdstate-yellow-25 {
+	border-color: rgba(255r 209g 0b, 0.25) !important;
 }
 
-.stroke-sdstate-gold {
-	stroke: #f1be48 !important;
+.stroke-sdstate-yellow {
+	stroke: #FFD100 !important;
 }
 
-.stroke-sdstate-gold-75 {
-	stroke: rgba(241, 190, 72, 0.75) !important;
+.stroke-sdstate-yellow-75 {
+	stroke: rgba(255r 209g 0b, 0.75) !important;
 }
 
-.stroke-sdstate-gold-50 {
-	stroke: rgba(241, 190, 72, 0.5) !important;
+.stroke-sdstate-yellow-50 {
+	stroke: rgba(255r 209g 0b, 0.5) !important;
 }
 
-.stroke-sdstate-gold-25 {
-	stroke: rgba(241, 190, 72, 0.25) !important;
+.stroke-sdstate-yellow-25 {
+	stroke: rgba(255r 209g 0b, 0.25) !important;
 }
 
-.shadow-sdstate-gold {
-	--c: drop-shadow(10px 10px #f1be48);
+.shadow-sdstate-yellow {
+	--c: drop-shadow(10px 10px ##FFD100);
 	-webkit-filter: var(--c);
 	filter: var(--c);
 }
