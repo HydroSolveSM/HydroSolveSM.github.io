@@ -3556,7 +3556,7 @@ fieldset[disabled] .btn-danger.focus {
 
 .btn-link {
 	font-weight: 400;
-	color: #c8102e;
+	color: #FFD100;
 	border-radius: 0;
 }
 
@@ -3579,7 +3579,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-	color: #810a1e;
+	color: #FFD100;
 	text-decoration: underline;
 	background-color: transparent;
 }
@@ -3588,7 +3588,7 @@ fieldset[disabled] .btn-link {
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:hover,
 fieldset[disabled] .btn-link:focus {
-	color: #777;
+	color: #FFD100;
 	text-decoration: none;
 }
 
@@ -5088,23 +5088,23 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 .navbar-inverse .navbar-link:hover {
-	color: #fff;
+	color: #FFD100;
 }
 
 .navbar-inverse .btn-link {
-	color: #9d9d9d;
+	color: #FFD100;
 }
 
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
-	color: #fff;
+	color: #FFD100;
 }
 
 .navbar-inverse .btn-link[disabled]:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
-	color: #444;
+	color: #FFD100;
 }
 
 .breadcrumb {
@@ -10656,7 +10656,7 @@ navbar-light-gray
 	padding: 5px 10px;
 	margin-left: -1px;
 	line-height: 1.428571429;
-	color: #c8102e;
+	color: #FFD100;
 	text-decoration: none;
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -10667,7 +10667,7 @@ navbar-light-gray
 .page-links > .page-links-elements > span:hover,
 .page-links > .page-links-elements > span:focus {
 	z-index: 2;
-	color: #810a1e;
+	color: #FFD100;
 	background-color: #eee;
 	border-color: #ddd;
 }
