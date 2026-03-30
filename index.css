@@ -212,13 +212,13 @@ template {
 
 a {
 	background-color: transparent;
-	color: "#FFD100";
+	link-color: "#FFD100";
 }
 
 a:active,
 a:hover {
 	outline: 0;
-	color: "#FFD100";
+	link-color: "#FFD100";
 }
 
 abbr[title] {
@@ -510,7 +510,7 @@ textarea {
 }
 
 a {
-	color: #c8102e;
+	color: "#FFD100";
 	text-decoration: none;
 }
 
@@ -784,52 +784,52 @@ mark,
 }
 
 .text-muted {
-	color: #777;
+	color: "#FFD100";
 }
 
 .text-primary {
-	color: #006ba6;
+	color: "#FFD100";
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-	color: #004a73;
+	color: "#FFD100";
 }
 
 .text-success {
-	color: #3c763d;
+	color: "#FFD100";
 }
 
 a.text-success:hover,
 a.text-success:focus {
-	color: #2b542c;
+	color: "#FFD100";
 }
 
 .text-info {
-	color: #31708f;
+	color: "#FFD100";
 }
 
 a.text-info:hover,
 a.text-info:focus {
-	color: #245269;
+	color: "#FFD100";
 }
 
 .text-warning {
-	color: #8a6d3b;
+	color: "#FFD100";
 }
 
 a.text-warning:hover,
 a.text-warning:focus {
-	color: #66512c;
+	color: "#FFD100";
 }
 
 .text-danger {
-	color: #a94442;
+	color: "#FFD100";
 }
 
 a.text-danger:hover,
 a.text-danger:focus {
-	color: #843534;
+	color: "#FFD100";
 }
 
 .bg-primary {
