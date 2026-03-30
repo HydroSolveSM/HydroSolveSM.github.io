@@ -216,11 +216,13 @@ template {
 
 a {
 	background-color: transparent;
+	color: "#FFD100";
 }
 
 a:active,
 a:hover {
 	outline: 0;
+	color: "#FFD100";
 }
 
 abbr[title] {
@@ -395,10 +397,12 @@ th {
 	a,
 	a:visited {
 		text-decoration: none;
+		color: "#FFD100";
 	}
 
 	a[href]::after {
 		content: " (" attr(href) ")";
+		color: "#FFD100";
 	}
 
 	abbr[title]::after {
@@ -408,6 +412,7 @@ th {
 	a[href^="#"]::after,
 	a[href^="javascript:"]::after {
 		content: "";
+		color: "#FFD100";
 	}
 
 	pre,
@@ -515,13 +520,14 @@ a {
 
 a:hover,
 a:focus {
-	color: #0033A0;
+	color: "#FFD100";
 	text-decoration: underline;
 }
 
 a:focus {
 	outline: 5px auto -webkit-focus-ring-color;
 	outline-offset: -2px;
+	color: "#FFD100";
 }
 
 figure {
