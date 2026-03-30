@@ -83,12 +83,7 @@ a.link-hover-sdstate-yellow:hover {
 .sdstate-yellow,
 .text-sdstate-yellow,
 .text-sdstate-yellow :is(h1, h2, h3, h4, h5, h6),
-.link-sdstate-yellow a,
-.link-hover-sdstate-yellow a:focus,
-.link-hover-sdstate-yellow a:hover,
-a.link-sdstate-yellow,
-a.link-hover-sdstate-yellow:focus,
-a.link-hover-sdstate-yellow:hover {
+{
 	color: #FFD100 !important;
 }
 
@@ -906,18 +901,21 @@ ol ol {
 .list-unstyled {
 	padding-left: 0;
 	list-style: none;
+	color: "#FFD100";
 }
 
 .list-inline {
 	padding-left: 0;
 	list-style: none;
 	margin-left: -5px;
+	color: "#FFD100";
 }
 
 .list-inline > li {
 	display: inline-block;
 	padding-right: 5px;
 	padding-left: 5px;
+	color: "#FFD100";
 }
 
 dl {
@@ -10639,10 +10637,12 @@ navbar-light-gray
 	padding-left: 0;
 	margin: 20px 0;
 	border-radius: 4px;
+	color: "#FFD100";
 }
 
 .page-links > .page-links-label {
 	float: left;
+	color: "#FFD100";
 }
 
 .page-links > .page-links-elements {
@@ -10677,12 +10677,14 @@ navbar-light-gray
 	margin-left: 0;
 	border-top-left-radius: 4px;
 	border-bottom-left-radius: 4px;
+	color: "#FFD100";
 }
 
 .page-links > .page-links-elements > a:last-child,
 .page-links > .page-links-elements > span:last-child {
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	color: "#FFD100";
 }
 
 .page-links > .page-links-elements > a.current,
