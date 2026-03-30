@@ -248,7 +248,7 @@ h1 {
 }
 
 mark {
-	background: #FFD100;
+	background: #0033A0;
 	color: #000;
 }
 
@@ -519,7 +519,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #FFD100;
+	color: #0033A0;
 	text-decoration: underline;
 }
 
@@ -749,7 +749,7 @@ small,
 mark,
 .mark {
 	padding: 0.2em;
-	background-color: #fcf8e3;
+	background-color: #0033A0;
 }
 
 .text-left {
@@ -862,7 +862,7 @@ a.bg-success:focus {
 
 a.bg-info:hover,
 a.bg-info:focus {
-	background-color: #FFD100;
+	background-color: #0033A0;
 }
 
 .bg-warning {
