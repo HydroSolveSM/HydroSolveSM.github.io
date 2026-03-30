@@ -11,12 +11,8 @@
 .sdstate-blue,
 .text-sdstate-yellow,
 .text-sdstate-blue :is(h1, h2, h3, h4, h5, h6),
-.link-sdstate-yellow a,
 .link-hover-sdstate-blue a:focus,
-.link-hover-sdstate-yellow a:hover,
-a.link-sdstate-yellow,
-a.link-hover-sdstate-blue:focus,
-a.link-hover-sdstate-yellow:hover {
+{
 	color: #FFD100	!important;
 }
 
@@ -164,7 +160,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.54286em;
     background: #0033A0;
-    color: #444548;
+    color: "#FFD100";
     text-rendering: optimizeLegibility;
     font-family: "Fira Sans",sans-serif;
     font-size: 87.5%;
