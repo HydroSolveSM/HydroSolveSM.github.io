@@ -4,7 +4,7 @@
 
 	/* sdstate */
 	--sdstate-blue: #0033A0;
-	--sdstate-yellow: #FFC72C;
+	--sdstate-yellow: #C99700;
 
 }
 
@@ -13,7 +13,7 @@
 .text-sdstate-blue :is(h1, h2, h3, h4, h5, h6),
 .link-hover-sdstate-blue a:focus,
 {
-	color: #FFC72C	!important;
+	color: #C99700	!important;
 }
 
 .bg-sdstate-blue,
@@ -35,23 +35,23 @@
 }
 
 .fill-sdstate-blue {
-	fill: #FFD100 !important;
+	fill: #C99700 !important;
 }
 
 .fill-sdstate-yellow-75 {
-	fill: rgba(255r, 209g, 0b, 0.75) !important;
+	fill: rgba(201r, 151g, 0b, 0.75) !important;
 }
 
 .fill-sdstate-yellow-50 {
-	fill: rgba(255r, 209g, 0b, 0.50) !important;
+	fill: rgba(201r, 151g, 0b, 0.50) !important;
 }
 
 .fill-sdstate-yellow-25 {
-	fill: rgba(255r, 209g, 0b, 0.25) !important;
+	fill: rgba(201r, 151g, 0b, 0.25) !important;
 }
 
 .border-sdstate-yellow {
-	border-color: #FFC72C !important; 
+	border-color: #C99700 !important; 
 }
 
 .border-sdstate-blue-75 {
@@ -67,7 +67,7 @@
 }
 
 .stroke-sdstate-yellow {
-	stroke: #FFD100 !important;
+	stroke: #C99700 !important;
 }
 .shadow-sdstate-blue {
 	--c: drop-shadow(10px 10px #0033A0);
@@ -80,13 +80,13 @@
 .text-sdstate-yellow,
 .text-sdstate-yellow :is(h1, h2, h3, h4, h5, h6),
 {
-	color: #FFD100 !important;
+	color: #C99700 !important;
 }
 
 .bg-sdstate-yellow,
 .bg-hover-sdstate-yellow:focus,
 .bg-hover-sdstate-yellow:hover {
-	background-color: #FFC72C !important;
+	background-color: #C99700 !important;
 }
 
 .bg-sdstate-yellow-75 {
@@ -102,7 +102,7 @@
 }
 
 .fill-sdstate-yellow {
-	fill: #f1be48 !important;
+	fill: #C99700 !important;
 }
 
 .fill-sdstate-yellow-75 {
@@ -118,7 +118,7 @@
 }
 
 .border-sdstate-yellow {
-	border-color: ##FFD100 !important;
+	border-color: #C99700 !important;
 }
 
 .border-sdstate-yellow-75 {
@@ -134,7 +134,7 @@
 }
 
 .stroke-sdstate-yellow {
-	stroke: #FFD100 !important;
+	stroke: #C99700 !important;
 }
 
 .stroke-sdstate-yellow-75 {
@@ -150,7 +150,7 @@
 }
 
 .shadow-sdstate-yellow {
-	--c: drop-shadow(10px 10px ##FFD100);
+	--c: drop-shadow(10px 10px #C99700);
 	-webkit-filter: var(--c);
 	filter: var(--c);
 }
@@ -160,7 +160,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.54286em;
     background: #0033A0;
-    color: "#FFC72C";
+    color: "#C99700";
     text-rendering: optimizeLegibility;
     font-family: "Fira Sans",sans-serif;
     font-size: 87.5%;
@@ -212,13 +212,13 @@ template {
 
 a {
 	background-color: transparent;
-	link-color: "#FFC72C";
+	link-color: "#C99700";
 }
 
 a:active,
 a:hover {
 	outline: 0;
-	link-color: "#FFC72C";
+	link-color: "#C99700";
 }
 
 abbr[title] {
@@ -393,12 +393,12 @@ th {
 	a,
 	a:visited {
 		text-decoration: none;
-		color: "#FFD100";
+		color: "#C99700";
 	}
 
 	a[href]::after {
 		content: " (" attr(href) ")";
-		color: "#FFC72C";
+		color: "#C99700";
 	}
 
 	abbr[title]::after {
@@ -408,7 +408,7 @@ th {
 	a[href^="#"]::after,
 	a[href^="javascript:"]::after {
 		content: "";
-		color: "#FFC72C";
+		color: "#C99700";
 	}
 
 	pre,
@@ -516,14 +516,14 @@ a {
 
 a:hover,
 a:focus {
-	color: "#FFC72C";
+	color: "#C99700";
 	text-decoration: underline;
 }
 
 a:focus {
 	outline: 5px auto -webkit-focus-ring-color;
 	outline-offset: -2px;
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 figure {
@@ -784,52 +784,52 @@ mark,
 }
 
 .text-muted {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 .text-primary {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-	color: "#FFD100";
+	color: "#C99700";
 }
 
 .text-success {
-	color: "#FFD100";
+	color: "#C99700";
 }
 
 a.text-success:hover,
 a.text-success:focus {
-	color: "#FFD100";
+	color: "#C99700";
 }
 
 .text-info {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 a.text-info:hover,
 a.text-info:focus {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 .text-warning {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 a.text-warning:hover,
 a.text-warning:focus {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 .text-danger {
-	color: "#FFC72C";
+	color: "#C99700";
 }
 
 a.text-danger:hover,
 a.text-danger:focus {
-	color: "##FFC72C";
+	color: "#C99700";
 }
 
 .bg-primary {
