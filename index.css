@@ -4,7 +4,7 @@
 
 	/* sdstate */
 	--sdstate-blue: #0033A0;
-	--sdstate-yellow: #FFD100;
+	--sdstate-yellow: #FFC72C;
 
 }
 
@@ -13,7 +13,7 @@
 .text-sdstate-blue :is(h1, h2, h3, h4, h5, h6),
 .link-hover-sdstate-blue a:focus,
 {
-	color: #FFD100	!important;
+	color: #FFC72C	!important;
 }
 
 .bg-sdstate-blue,
@@ -51,7 +51,7 @@
 }
 
 .border-sdstate-yellow {
-	border-color: #FFD100 !important; 
+	border-color: #FFC72C !important; 
 }
 
 .border-sdstate-blue-75 {
@@ -86,7 +86,7 @@
 .bg-sdstate-yellow,
 .bg-hover-sdstate-yellow:focus,
 .bg-hover-sdstate-yellow:hover {
-	background-color: #FFD100 !important;
+	background-color: #FFC72C !important;
 }
 
 .bg-sdstate-yellow-75 {
@@ -160,7 +160,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	line-height: 1.54286em;
     background: #0033A0;
-    color: "#FFD100";
+    color: "#FFC72C";
     text-rendering: optimizeLegibility;
     font-family: "Fira Sans",sans-serif;
     font-size: 87.5%;
@@ -218,7 +218,7 @@ a {
 a:active,
 a:hover {
 	outline: 0;
-	link-color: "#FFD100";
+	link-color: "#FFC72C";
 }
 
 abbr[title] {
@@ -398,7 +398,7 @@ th {
 
 	a[href]::after {
 		content: " (" attr(href) ")";
-		color: "#FFD100";
+		color: "#FFC72C";
 	}
 
 	abbr[title]::after {
@@ -408,7 +408,7 @@ th {
 	a[href^="#"]::after,
 	a[href^="javascript:"]::after {
 		content: "";
-		color: "#FFD100";
+		color: "#FFC72C";
 	}
 
 	pre,
@@ -784,11 +784,11 @@ mark,
 }
 
 .text-muted {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 .text-primary {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 a.text-primary:hover,
@@ -806,30 +806,30 @@ a.text-success:focus {
 }
 
 .text-info {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 a.text-info:hover,
 a.text-info:focus {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 .text-warning {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 a.text-warning:hover,
 a.text-warning:focus {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 .text-danger {
-	color: "#FFD100";
+	color: "#FFC72C";
 }
 
 a.text-danger:hover,
 a.text-danger:focus {
-	color: "#FFD100";
+	color: "##FFC72C";
 }
 
 .bg-primary {
